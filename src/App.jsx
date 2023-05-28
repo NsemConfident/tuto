@@ -10,7 +10,7 @@ import Testimonials from './components/testimonials/Testimonial'
 import Footer from './components/footer/Footer';
 function App() {
     return ( <>
-        <Header / >
+        <Header/>
         <Nav/>
         <About/>
         <Experience/>
@@ -18,7 +18,7 @@ function App() {
         <Myportfolio/>
         <Testimonials/>
         <Footer/>
-        <Contact / >
+        <Contact/>
         
        
 
