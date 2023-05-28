@@ -1,8 +1,8 @@
 import React from 'react'
 import './about.css'
 const about = () => {
-    return ( <
-        div > about < /div>
+    return ( 
+    <div> about </div>
     )
 }
 
