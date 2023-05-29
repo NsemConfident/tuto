@@ -1,5 +1,5 @@
 header{
-    height: 100vh; /*vh correspond to viewport height*/
+    height: 200vh; /*vh correspond to viewport height*/
     padding-top: 7rem;
     overflow: hidden;
     }
@@ -30,11 +30,12 @@ header{
     height: 2rem;
     background: var(--color-primary);
     }
+    
     .my_image{
     background: linear-gradient(
     var(--color-primary), transparent);
     width: 22rem;
-    Height:35rem;
+    Height: 30rem;
     position: absolute;
     left: calc(50% - 11rem); /*this help to place the image to the middle of screen*/
     margin-top: 4rem;
@@ -59,6 +60,7 @@ header{
     }
     @media screen and(max-width:600px) {
     header{
+        .container{background: red;}
     height:100vh
     }
     .header__social, .scroll__down{

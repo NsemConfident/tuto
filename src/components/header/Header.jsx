@@ -2,11 +2,11 @@ import React from 'react'
 import './header.css'
 import './CTA'
 import CTA from './CTA' //here we import the CTA component inside our header
-import me from '../../assets/mypic.jpg'
+import me from '../../assets/mycool.jpeg'
 import HeaderSocial from './HeaderSocial' //import of headerSocial component
 export const Header = () => {
     return ( 
-    <header>
+    <header id='home'>
         <div className = 'container header__container'>
         <h5> HI ITS ME!!!! </h5> 
         <h1 > NSEM CONFIDENT </h1> 
