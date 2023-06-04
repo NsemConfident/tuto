@@ -31,7 +31,7 @@ const about = () => {
             <article className="about__card">
             <FiUsers className="about__icon"/>
             <h5>Clients </h5>
-            <small>15o+ clients World wide </small>
+            <small>15o+ Worldwide </small>
             </article>
 
             <article className="about__card">
@@ -41,9 +41,13 @@ const about = () => {
             </article>
 
          </div>
-         <p><b><i>NSEM CONFIDENT</i>.</b> is a highly skilled Software Engineer  and a software Enthusiast. with years of working experiencce </p>
-         <p>working on enormous projects, Nsem Confident has extablished himself experienced in the field of software </p>
-         <p>i have worked with highly  rated media companies such <a href='https://chrome.google.com'>Google</a></p>
+         <p>
+         <b><i>NSEM CONFIDENT</i>.</b> is a highly skilled Software Engineer
+           and a software Enthusiast. with years of working experiencce
+         working on enormous projects, Nsem Confident has extablished himself
+          experienced in the field of software i have worked with highly  
+          rated media companies such <a href='https://chrome.google.com'>Google
+          </a></p>
 
          <a href='#contact' className='btn btn-primary'> Let's talk</a>
 
