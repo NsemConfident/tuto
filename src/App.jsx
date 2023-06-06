@@ -6,7 +6,7 @@ import About from './components/about/About'
 import Experience from './components/experience/Experience'
 import Services from './components/services/services';
 import Myportfolio from './components/myportfolio/Myportfolio'
-import Testimonials from './components/testimonials/Testimonial'
+import Testimonial from './components/testimonial/Testimonial'
 import Footer from './components/footer/Footer';
 function App() {
     return ( <>
@@ -16,9 +16,10 @@ function App() {
         <Experience/>
         <Services/>
         <Myportfolio/>
-        <Testimonials/>
-        <Footer/>
+        <Testimonial/> 
         <Contact/>
+        <Footer/>
+       
         
        
 
